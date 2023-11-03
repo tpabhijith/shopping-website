@@ -1,228 +1,234 @@
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;
-	background: transparent;
-	font-weight: normal;
-	text-decoration: none;
-	outline: none;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
 del {
-	text-decoration: line-through;
+    text-decoration: line-through;
 }
 body {
-	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
-	font-size: 17px;
-	color: #1C2C40;
-	overflow-x: hidden;
-	min-width: 320px;
-	font-weight: 400;
+    font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #1c2c40;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 400;
 }
-input,textarea,select{
-	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
-	font-weight: 400;
+input,
+textarea,
+select {
+    font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+    font-weight: 400;
 }
 
-a{
-	color: #1C2C40;
+a {
+    color: #1c2c40;
 }
-a:hover,.submit:hover{
-	filter: alpha(opacity = 85);
-	-moz-opacity: 0.85;
-	-khtml-opacity: 0.85;
-	opacity: 0.85;
+a:hover,
+.submit:hover {
+    filter: alpha(opacity = 85);
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
 }
-.thumb{
-	display: block;
+.thumb {
+    display: block;
 }
-.thumb img{
-	display: block;
-	width:100%;
+.thumb img {
+    display: block;
+    width: 100%;
 }
-p{
-	line-height:1.6em;
-	font-size: 16px;
-	font-family: "Circular-Std-Regular", Arial;
-	font-weight: 400;
+p {
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: "Circular-Std-Regular", Arial;
+    font-weight: 400;
 }
-.hidden{
-	display:none;
+.hidden {
+    display: none;
 }
 br.clear {
-	clear: both;
-	line-height: 0;
+    clear: both;
+    line-height: 0;
 }
 .wrapper {
-	width: 90%;
-	margin: 0 auto;
-	/* max-width:1100px; */
+    width: 90%;
+    margin: 0 auto;
+    /* max-width:1100px; */
 }
 @font-face {
-	font-family: 'Circular-Std-Regular';
-	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
-	src:url('../fonts/CircularStd-Regular.woff') format('woff');
-	font-style: normal;
+    font-family: "Circular-Std-Regular";
+    src: url("../fonts/CircularStd-Regular.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Regular.woff") format("woff");
+    font-style: normal;
 }
 @font-face {
-    font-family: 'Circular-Std-Bold';
+    font-family: "Circular-Std-Bold";
     src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
     src: url("../fonts/CircularStd-Bold.woff") format("woff");
-    font-style: normal
+    font-style: normal;
 }
 header section.wrapper {
-	padding: 30px 0;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 header div.left {
-	width: 33.33%;
+    width: 33.33%;
 }
 header div.left h1 {
 }
 header div.left h1 a {
-	display: inline-block;
-	width: 100px;
+    display: inline-block;
+    width: 100px;
 }
 header div.left h1 a img {
-	display: block;
-	width: 100%;
+    display: block;
+    width: 100%;
 }
 header div.middle {
-	width: 33.33%;
+    width: 33.33%;
 }
 header div.middle ul {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 header div.middle ul li {
-	margin-right: 20px;
+    margin-right: 20px;
 }
 header div.middle ul :last-child {
-	margin-right: 0px;
+    margin-right: 0px;
 }
 header div.middle ul li a {
 }
 header div.right {
-	width: 33.33%;
+    width: 33.33%;
 }
 header div.right ul {
-	display: flex;
-	justify-content: flex-end
+    display: flex;
+    justify-content: flex-end;
 }
 header div.right ul li {
-	margin-right: 30px;
+    margin-right: 30px;
 }
 header div.right ul :last-child {
-	margin-right: 0px;
+    margin-right: 0px;
 }
 header div.right ul li a.button {
-	padding: 12px 24px;
-	border: 1px solid #0a083a;
-	border-radius: 30px;
-	color: rgb(63, 63, 201);
+    padding: 12px 24px;
+    border: 1px solid #0a083a;
+    border-radius: 30px;
+    color: rgb(63, 63, 201);
 }
 #spotlight {
-	padding-top: 30px;
-	padding-bottom: 100px;
-	display: flex;
-	justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
 }
-#spotlight div.left{
-	width: 40%;
-	text-align: left;
-	padding: 20px 30px;
-	margin-left: 100px;
-	margin-top: 150px;
+#spotlight div.left {
+    width: 40%;
+    text-align: left;
+    padding: 20px 30px;
+    margin-left: 100px;
+    margin-top: 150px;
 }
 #spotlight div.left h3 {
-	font-size: 54px;
-	font-weight: 700;
-	margin-bottom: 30px;
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 #spotlight div.left p {
-	font-size: 20px;
-	margin-bottom: 50px;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
 #spotlight div.left a.button {
-	padding: 16px 32px;
-	border: 1px solid #0a083a;
-	border-radius: 30px;
-	background: #0a083a;
-	color: #fff;
+    padding: 16px 32px;
+    border: 1px solid #0a083a;
+    border-radius: 30px;
+    background: #0a083a;
+    color: #fff;
 }
 #spotlight div.left ul {
-	margin-top: 40px;
-	display: flex;
-	flex-direction: column;
-	align-content: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
-#spotlight div.left ul li{
-	margin: 10px 0;
-	display: flex;
-	align-items: center;
-	font-size: 20px;
+#spotlight div.left ul li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
 }
 #spotlight div.left ul li img {
-	margin-right: 10px;
-	display: block;
-	width: 20px;
+    margin-right: 10px;
+    display: block;
+    width: 20px;
 }
 #spotlight div.right {
-	width: 45%;
-	padding-top: 20px;
+    width: 45%;
+    padding-top: 20px;
 }
 #spotlight div.right div.bg {
-	background: #e3e3e3;
-	width: 35%;
-	height: 700px;
-	position: absolute;
-	right: 0;
-	top: 230px;
+    background: #e3e3e3;
+    width: 35%;
+    height: 700px;
+    position: absolute;
+    right: 119px;
+    top: 220px;
 }
 #spotlight div.right div.image {
-	width: 35%;
-	position: absolute;
-	z-index: 2;
+    width: 35%;
+    position: absolute;
+    height: 700px;
+    z-index: 2;
 }
 #spotlight div.right div.image img {
-	display: block;
-	width: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 #spotlight div.right div.mesh {
-	position: absolute;
-	top: 650px;
-	right: 100px;
+    position: absolute;
+    top: 685px;
+    right: 150px;
 }
-#spotlight div.right div.content{
- 	background: #0a083a;
- 	width: 25%;
- 	position: absolute;
-	padding: 30px;
-	z-index: 3;
-	right: 333px;
-	top: 635px;
+#spotlight div.right div.content {
+    background: #0a083a;
+    width: 25%;
+    position: absolute;
+    padding: 30px;
+    z-index: 3;
+    right: 333px;
+    top: 635px;
 }
 #spotlight div.right div.content img {
-	position: absolute;
-	top: 0px;
-	left: -30px;
+    position: absolute;
+    top: 0px;
+    left: -30px;
 }
 #spotlight div.right div.content p {
-	color: #fff;
+    color: #fff;
 }
 #spotlight div.right div.content span {
-	color: #fff;
-	display: block;
-	margin-top: 10px;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
 }
 #spotlight div.right div.content small {
-	color:#e3e3e3;
+    color: #e3e3e3;
 }
